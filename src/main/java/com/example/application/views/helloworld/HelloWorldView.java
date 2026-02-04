@@ -16,7 +16,7 @@ import org.vaadin.lineawesome.LineAwesomeIconUrl;
 import java.util.UUID;
 import java.util.stream.Stream;
 
-@PageTitle("Hello World") @Route("") @Menu(order = 0, icon = LineAwesomeIconUrl.GLOBE_SOLID) public class HelloWorldView
+@PageTitle("Grid Performance") @Route("") @Menu(order = 0, icon = LineAwesomeIconUrl.GLOBE_SOLID) public class HelloWorldView
 		extends VerticalLayout {
 
 	private Grid<DataElement> grid;
